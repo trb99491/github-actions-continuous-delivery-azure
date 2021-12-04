@@ -6,6 +6,8 @@ on:
       - main
 env:
   DOCKER_IMAGE_NAME: trb99491-azure-ttt
+  IMAGE_REGISTRY_URL: docker.pkg.github.com
+  
   AZURE_RESOURCE_GROUP: cd-with-actions
   AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"Central US"'
